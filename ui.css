@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family: 'Roboto';
     font-size: 22px;
+    color: #fff;
 }
 
 ul {
@@ -19,15 +20,20 @@ li {
   
 li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
+    margin: 14px 16px;
     text-decoration: none;
+
 }
   
 li a:hover:not(.active) {
-    background-color: #b6b6b6;
-    border-radius: 7px;
+    border-bottom: 1px #fff solid;
+}
+
+.navbar {
+    color: #fff;
+    background-color: rgb(0, 68, 255);
 }
 
 .mainPageProducts{
@@ -57,7 +63,7 @@ li a:hover:not(.active) {
     padding: 2.5vh;
     border-radius: 5px;
     max-width: 40vh;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(235, 235, 235);
 }
 
 .card-body h5, p{
@@ -85,6 +91,51 @@ li a:hover:not(.active) {
 
 .card img{
     mix-blend-mode: color-burn;
+}
+
+.contactForm{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    background-color: darkblue;
+}
+
+.contactForm input{
+    align-self: center;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px #fff solid;
+    font-size: 1.2rem;
+    width: 350px;
+    padding: .5rem 2rem;
+}
+
+.contactForm input::placeholder {
+    color: #fff ;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.form-btn {
+    align-self: center;
+    border: 1px #fff solid;
+    max-width: 100px;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+    cursor: pointer;
 }
 
 .delivery{

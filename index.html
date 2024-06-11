@@ -12,8 +12,8 @@
     <div>
         <div>
             <div class="topPageContainer">
-                <div class="navbar">
-                    <nav>
+                <div>
+                    <nav class="navbar">
                         <ul>
                             <li><a href="#home">Logo</a></li>
                             <li><a href="#contact">Contact</a></li>
@@ -24,30 +24,6 @@
                 </div>
                 <div class="mainPageProducts">
                     <div class="products">
-                        <div class="card">
-                            <img src="https://iczc.cz/9dg6sfiucsgii913unofjffe21-1_1/obrazek" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Název</h5>
-                                <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae est ex.</p>
-                                <a onclick="addToCard()" class="card-btn"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>Do košíku</a>                                
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="https://iczc.cz/9dg6sfiucsgii913unofjffe21-1_1/obrazek" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Název</h5>
-                                <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae est ex.</p>
-                                <a onclick="addToCard()" class="card-btn"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>Do košíku</a>                                
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="https://iczc.cz/9dg6sfiucsgii913unofjffe21-1_1/obrazek" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Název</h5>
-                                <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae est ex.</p>
-                                <a onclick="addToCard()" class="card-btn"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>Do košíku</a>                                
-                            </div>
-                        </div>
                         <div class="card">
                             <img src="https://iczc.cz/9dg6sfiucsgii913unofjffe21-1_1/obrazek" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -89,6 +65,13 @@
                 <div class="type" style="animation: deliveryAnim 3.5s ease 0s 1 normal forwards;">
                     <p><img style="margin-inline: 5vh;" src="data:image/png;base64,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" width="250" height="auto"></p><br><p>DPD</p>
                 </div>
+            </div>
+            <div class="contactForm">
+                <input type="text" name="" id="" placeholder="Jméno" maxlength="30" required>
+                <input type="email" name="" id="" placeholder="Email" maxlength="45" required>
+                <input type="number" name="" id="" placeholder="Telefon" maxlength="9" required>
+                <input type="text" name="" id="" placeholder="Požadavek" maxlength="300" required>
+                <a class="form-btn" onclick="sendForm()">Odeslat</a>
             </div>
             <div class="mainPagefooter" style="background-color: blacK; min-height: 50vh;" id="contact">
                 <h1 style="padding-top: 5vh; font-weight: 700; text-shadow: 0px 0px 10px #000000; color: white; text-align: center;">KONTAKTY</h1>
