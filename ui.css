@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     font-family: 'Roboto';
     font-size: 22px;
@@ -13,11 +13,11 @@ ul {
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
 }
-  
+
 li {
     float: left;
 }
-  
+
 li a {
     display: block;
     color: rgb(255, 255, 255);
@@ -25,7 +25,7 @@ li a {
     margin: 14px 16px;
     text-decoration: none;
 }
-  
+
 li a img {
     align-self: center;
     text-align: center;
@@ -41,12 +41,12 @@ li a:hover:not(.active) {
     background-color: #856a5d;
 }
 
-.mainPageProducts{
+.mainPageProducts {
     padding: 15px;
     padding-bottom: 5vh;
 }
 
-.products{
+.products {
     margin-top: 5vh;
     margin-inline: 15vh;
     display: flex;
@@ -55,12 +55,12 @@ li a:hover:not(.active) {
     gap: 5vh;
 }
 
-.card img{  
+.card img {
     object-fit: fill;
     aspect-ratio: 16/9;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -71,16 +71,17 @@ li a:hover:not(.active) {
     background-color: #ccc9e7;
 }
 
-.card-body h5, p{
+.card-body h5,
+p {
     text-align: left;
 }
 
-.card-body p{
+.card-body p {
     font-size: 14px;
     overflow-wrap: break-word;
 }
 
-.card-btn{
+.card-btn {
     display: flex;
     justify-content: center;
     padding: .5vh;
@@ -89,12 +90,12 @@ li a:hover:not(.active) {
     gap: 5px;
     border-radius: 5px;
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
     align-self: flex-end;
     cursor: pointer;
 }
 
-.contactForm{
+.contactForm {
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
@@ -109,7 +110,7 @@ li a:hover:not(.active) {
     text-shadow: 0px 0px 10px #000000;
 }
 
-.contactForm input{
+.contactForm input {
     align-self: center;
     color: #fff;
     background-color: transparent;
@@ -122,15 +123,15 @@ li a:hover:not(.active) {
 }
 
 .contactForm input::placeholder {
-    color: #fff ;
+    color: #fff;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin: 0; 
+    margin: 0;
 }
 
 .form-btn {
@@ -145,23 +146,50 @@ input[type=number]::-webkit-outer-spin-button {
     box-shadow: 0px 0px 10px #fff;
 }
 
-.delivery{
+.delivery {
     display: flex;
 }
 
-.type p{
+.type p {
     text-align: center;
     font-weight: 700;
     color: #000;
 }
 
-.collumns{
+.blog {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    margin-inline: 10vh;
+}
+
+.blog h1 {
+    text-align: center;
+}
+
+.blog p{
+    margin-top: 15vh;
+}
+
+.p-left {
+    align-self: flex-start;
+    padding-right: 20px;
+    border-bottom: 1px #856a5d solid;
+}
+
+.p-right {
+    align-self: flex-end;
+    padding-left: 20px;
+    border-bottom: 1px #856a5d solid;
+}
+
+.collumns {
     color: white;
     display: flex;
     justify-content: center;
 }
 
-.collumn h3{
+.collumn h3 {
     text-align: left;
     font-weight: 600;
     min-width: 30vh;
@@ -169,7 +197,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 18;
 }
 
-.collumn p{
+.collumn p {
     text-align: left;
     font-weight: 400;
     text-shadow: 0px 0px 0px #000000;
